@@ -1,1 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+
+.container{
+  display:flex; 
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  font-family:"Inter",sanserif;
+  height:100vh; 
+  background-image:
+    linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(25 178 221/73%)),
+    url('https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+.formcontain{
+  width:300px;
+  padding:30px;
+  background:#ffffff73 ;
+  border-radius:10px;
+}
+form{
+  display:flex;
+  flex-direction:column; 
+}
+input{
+  border:none;
+  outline:none;
+  padding:12px;
+  border-radius:5px;
+  margin-bottom:15px;
+  transition:all .3s ease;
+}
+input:focus{
+  box-shadow:0px 4px 0px #999;
+}
+label{
+  margin-bottom:5px;
+}
+.submitbtn{
+  width:100px;
+  border:none;
+  outline:none;
+  padding:12px;
+  border-radius:5px;
+  margin:auto;
+  font-size:16px;
+  transition:all .3s ease;
+}
+.submitbtn:hover{
+  background:#ffdd44;
+}
+a{
+  text-decoration:none;
+  color:#00ff0; 
+}
+.extra{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-between;
+}
 
